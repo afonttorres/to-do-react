@@ -15,8 +15,4 @@ export class Task {
         this.priority = priority;
         this.createdAt = new Date().toDateString();
     }
-
-    toggleCompleted = () =>{
-        this.isCompleted = !this.isCompleted;
-    }
 }

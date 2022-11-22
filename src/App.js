@@ -2,15 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import TaskListComponent from './components/container/TaskListComponent';
 import RegisterForm from './components/pure/forms/RegisterForm';
+import LoginFormik from './components/pure/forms/LoginForm';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <TaskListComponent />
-        <RegisterForm />
-      </header>
+      <TaskListComponent />
+      {/* <RegisterForm />
+        <LoginFormik /> */}
     </div>
   );
 }

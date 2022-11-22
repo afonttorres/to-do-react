@@ -1,4 +1,45 @@
-.task-name{
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-name {
     font-weight: bold;
+    color: cadetblue;
+}
+
+#status {
+    text-align: center;
+    height: .75rem;
+    width: .75rem;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.598));
+    cursor: pointer;
+}
+
+.completed {
+    background-color: rgb(93, 177, 93);
+}
+
+.uncompleted {
+    background-color: indianred;
+}
+
+#remove-btn{
+    cursor: pointer;
+    color: lightcoral;
+}
+
+#remove-btn:hover{
     color: indianred;
 }
